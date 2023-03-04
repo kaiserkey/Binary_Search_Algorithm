@@ -6,7 +6,7 @@
 
 ---
 
-|[Definicion](#definicion)|[Utilizacion](#utilizacion)|[Pseudocódigo](#pseudocodigo)
+|[Definicion](#definicion)|[Utilizacion](#utilizacion)|[Pseudocódigo](#pseudocódigo)
 | - | - | - |
 ---
 
