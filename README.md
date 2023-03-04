@@ -6,7 +6,7 @@
 
 ---
 
-|[Definicion](#definicion)|[Utilizacion](#utilizacion)|[Descripcion](#descripcion)
+|[Definicion](#definicion)|[Utilizacion](#utilizacion)|[Descripcion](#descripcion-de-los-Pasos-para-crear-el-Algoritmo)
 | - | - | - |
 ---
 
