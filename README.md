@@ -6,8 +6,8 @@
 
 ---
 
-|[Definicion](#definicion)|[Utilizacion](#utilizacion)|[Pseudocódigo](#pseudocódigo)
-| - | - | - |
+| [Definicion](#definicion) | [Utilizacion](#utilizacion) | [Pseudocódigo](#pseudocódigo) |
+| ------------------------- | --------------------------- | ----------------------------- |
 ---
 
 ## Definicion
@@ -31,16 +31,17 @@ Tomemos de ejemplo el catálogo estelar Tycho-2 una base de datos que contiene l
 5. Si el elemento es igual al elemento que se está buscando, se ha encontrado el elemento
 6. Si el elemento es mayor, el elemento buscado debe estar en el rango inferior. Establecer el límite derecho como el punto medio - 1.
 7. Si el elemento es menor, el elemento buscado debe estar en el rango superior.Establecer el límite izquierdo como el punto medio + 1.
-8. Repetir los pasos 2 a 6 hasta que el elemento buscado sea encontrado o los límites izquierdo y derecho se crucen.
-9. Si el elemento buscado se encuentra, devolver su índice.
-10. Si el elemento no se encuentra, devolver -1
+8. Si el elemento buscado se encuentra, devolver su índice.
+9.  Si el límite derecho es menor que el limite izquierdo, entonces no está en el array. Regresa -1.
+10. Repetir los pasos 2 a 9 hasta que el elemento buscado sea encontrado o el límite derecho sea menor que el limite izquierdo.
+
 
 ![example](binary-search.gif)
 
 ---
 
-|[@DanielSan](https://github.com/kaiserkey)|
-| - |
+| [@ByDanielSan](https://github.com/kaiserkey) |
+| ------------------------------------------ |
 
 
 
