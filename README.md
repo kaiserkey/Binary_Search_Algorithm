@@ -6,7 +6,7 @@
 
 ---
 
-|[Definicion](#definicion)|[Utilizacion](#utilizacion)|[Descripcion](#descripcion-de-los-Pasos-para-crear-el-Algoritmo)
+|[Definicion](#definicion)|[Utilizacion](#utilizacion)|[Pseudocódigo](#pseudocodigo)
 | - | - | - |
 ---
 
@@ -22,7 +22,7 @@ Tomemos de ejemplo el catálogo estelar Tycho-2 una base de datos que contiene l
 
 ---
 
-## Descripcion de los Pasos para crear el Algoritmo
+## Pseudocódigo
 
 1. Ordenar los elementos si no se encuentran ordenados. El algoritmo de búsqueda binaria requiere que los elementos estén ordenados de forma ascendente.
 2. Definir el rango de búsqueda estableciendo los límites izquierdo y derecho como un conjunto de elementos en los que se realizará la búsqueda.
