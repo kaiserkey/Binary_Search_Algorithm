@@ -1,6 +1,6 @@
 
 ---
-<h2><p align="center">Algoritmo de Busqueda Binaria</p></h2>
+<h1><p align="center">Algoritmo de Busqueda Binaria</p></h1>
 
 ![ALgoritmo de BUsqueda Binaria](binary_search.png)
 
