@@ -27,7 +27,6 @@ Tomemos de ejemplo el catálogo estelar Tycho-2 una base de datos que contiene l
 1. Ordenar los elementos si no se encuentran ordenados. El algoritmo de búsqueda binaria requiere que los elementos estén ordenados de forma ascendente.
 2. Definir el rango de búsqueda estableciendo los límites izquierdo y derecho como un conjunto de elementos en los que se realizará la búsqueda.
 3. Calcular el punto medio. Esto se realiza dividiendo el número de elementos del rango por la mitad. 
-Paso 
 4. Comparar el elemento en el punto medio con el elemento que se está buscando.
 5. Si el elemento es igual al elemento que se está buscando, se ha encontrado el elemento
 6. Si el elemento es mayor, el elemento buscado debe estar en el rango inferior. Establecer el límite derecho como el punto medio - 1.
