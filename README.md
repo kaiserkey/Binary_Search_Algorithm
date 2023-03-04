@@ -24,20 +24,30 @@ Tomemos de ejemplo el catálogo estelar Tycho-2 una base de datos que contiene l
 
 ## Descripcion de los Pasos para crear el Algoritmo
 
-1.  Definir el rango de búsqueda. El rango de búsqueda es el conjunto de elementos en los que se realizará la búsqueda. Esto puede ser una lista, un arreglo o una matriz. 
+1. Ordenar los elementos si no se encuentran ordenados. El algoritmo de búsqueda binaria requiere que los elementos estén ordenados de forma ascendente.
+2. Definir el rango de búsqueda estableciendo los límites izquierdo y derecho como un conjunto de elementos en los que se realizará la búsqueda.
+3. Calcular el punto medio. Esto se realiza dividiendo el número de elementos del rango por la mitad. 
+Paso 3: Comparar el elemento en el punto medio con el elemento que se está buscando.
+4. Si el elemento es igual al elemento que se está buscando, se ha encontrado el elemento
+5. Si el elemento es mayor, el elemento buscado debe estar en el rango inferior. Establecer el límite derecho como el punto medio - 1.
+6. Si el elemento es menor, el elemento buscado debe estar en el rango superior.Establecer el límite izquierdo como el punto medio + 1.
+7. Repetir los pasos 2 a 6 hasta que el elemento buscado sea encontrado o los límites izquierdo y derecho se crucen.
+8. Si el elemento buscado se encuentra, devolver su índice.
+9. Si el elemento no se encuentra, devolver -1
 
-2. Ordenar los elementos del rango. El algoritmo de búsqueda binaria requiere que los elementos estén ordenados de forma ascendente. 
+---
 
-3. Establecer el punto medio. Esto se realiza dividiendo el número de elementos del rango por la mitad. 
-
-4. Comparar el elemento en el punto medio con el elemento que se está buscando. Si el elemento es igual al elemento que se está buscando, se ha encontrado el elemento. Si el elemento es mayor, el elemento buscado debe estar en el rango inferior. Si el elemento es menor, el elemento buscado debe estar en el rango superior. 
-
-5. Repita los pasos 3 y 4 hasta encontrar el elemento o hasta que el rango de búsqueda esté vacío. Si el rango de búsqueda está vacío, el elemento no se encuentra en el rango.
-
-
-
-
-
+<p style="margin: 0 auto"> 
+    <table> 
+        <tr>
+            <td>
+                <a href="https://github.com/kaiserkey">
+                        @DanielSan
+                </a>
+            </td>
+        </tr>
+    </table>
+</p>
 
 
 
