@@ -7,7 +7,7 @@
 ---
 
 |[Definicion](#definicion)|[Utilizacion](#utilizacion)|[Descripcion](#descripcion)
--|-|-|-|-|-|-|-|-|
+| - | - | - |
 ---
 
 ## Definicion
