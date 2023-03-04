@@ -35,11 +35,12 @@ Paso 3: Comparar el elemento en el punto medio con el elemento que se está busc
 8. Si el elemento buscado se encuentra, devolver su índice.
 9. Si el elemento no se encuentra, devolver -1
 
+![example](binary-search.gif)
+
 ---
 
-|[@kaiserkey](https://github.com/kaiserkey)|
+|[@DanielSan](https://github.com/kaiserkey)|
 | - |
-
 
 
 
