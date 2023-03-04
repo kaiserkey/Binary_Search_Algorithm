@@ -37,17 +37,9 @@ Paso 3: Comparar el elemento en el punto medio con el elemento que se está busc
 
 ---
 
-<p style="margin: 0 auto"> 
-    <table> 
-        <tr>
-            <td>
-                <a href="https://github.com/kaiserkey">
-                        @DanielSan
-                </a>
-            </td>
-        </tr>
-    </table>
-</p>
+|[@kaiserkey](https://github.com/kaiserkey)|
+| - |
+
 
 
 
