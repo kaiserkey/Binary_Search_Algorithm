@@ -1,7 +1,6 @@
 
 ---
-# Algoritmo de Busqueda Binaria
-<p align="center">Centrar el texto aquí</p>
+<h2><p align="center">Algoritmo de Busqueda Binaria</p></h2>
 
 ![ALgoritmo de BUsqueda Binaria](binary_search.png)
 
