@@ -41,7 +41,7 @@ Tomemos de ejemplo el catálogo estelar Tycho-2 una base de datos que contiene l
 ---
 
 | [@ByDanielSan](https://github.com/kaiserkey) |
-| ------------------------------------------ |
+| - |
 
 
 
