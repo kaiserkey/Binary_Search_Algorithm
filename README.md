@@ -16,7 +16,7 @@
 La **búsqueda binaria** es un algoritmo eficiente para encontrar un elemento específico en una lista **ordenada** de elementos. Utiliza una estrategia de búsqueda de **"divide y vencerás"** para reducir la cantidad de elementos que debe revisar, **dividiendo** la lista a la **mitad** en cada iteración. Es uno de los algoritmos de búsqueda más rápidos y eficientes disponibles. 
 
 ---
-### Utilizacion
+## Utilizacion
 
 El algoritmo de búsqueda binaria se utiliza comúnmente para encontrar elementos en un conjunto de datos ordenados como **listas**, **arreglos** o **matrices ordenadas**. También se utiliza para realizar búsquedas en bases de datos y para encontrar el elemento más próximo a un número dado en un conjunto de números.
 Tomemos de ejemplo el catálogo estelar Tycho-2 una base de datos que contiene la posición, la magnitud y la clase espectral de más de 2.5 millones de estrellas. Supongamos que queremos buscar en el catálogo una estrella en particular, con base en el nombre de la estrella. Si el programa examinara cada estrella en el catálogo estelar en orden empezando con la primera, con un algoritmo llamado búsqueda lineal, la computadora podría, en el peor de los casos, tener que examinar todas las 2.5 millones de estrellas para encontrar la estrella que estás buscando. Si el catálogo estuviera ordenado alfabéticamente por nombres de estrellas, la búsqueda binaria no tendría que examinar más de 22 estrellas, incluso en el peor de los casos.
@@ -41,7 +41,7 @@ Tomemos de ejemplo el catálogo estelar Tycho-2 una base de datos que contiene l
 
 ---
 
-### Tiempo de ejecución de la búsqueda binaria
+## Tiempo de ejecución de la búsqueda binaria
 La búsqueda binaria es un algoritmo de búsqueda de complejidad $O(log$ $n)$. Esto significa que el número de pasos requeridos para encontrar un elemento en una lista aumenta a medida que el número de elementos en la lista aumenta, pero no lo hace en la misma proporción. Por lo tanto, el tiempo de ejecución de la búsqueda binaria es mucho más rápido que el tiempo de ejecución de un algoritmo de búsqueda lineal, en el que el tiempo de búsqueda aumenta linealmente con el número de elementos en la lista.
 
 La clave de la eficiencia del algoritmo de busqueda binaria es que cuando el algoritmo realiza una busqueda incorrecta, el intervalo del arreglo que contiene los intentos razonables se reduce a la mitad. Si la porción razonable tenía $40$ elementos, entonces un intento incorrecto la reduce para que tenga $20$. La búsqueda binaria reduce el tamaño de la porción razonable a la mitad después de cada intento incorrecto.
