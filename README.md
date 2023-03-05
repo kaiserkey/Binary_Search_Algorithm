@@ -6,7 +6,7 @@
 
 ---
 
-| [Definicion](#definicion) | [Utilizacion](#utilizacion) | [Pseudocódigo](#pseudocódigo) | [Tiempo De Ejecucion](#tiempo-de-ejecución-de-la-búsqueda-binaria) |
+| [Definicion](#definicion) | [Utilizacion](#utilizacion) | [Pseudocódigo](#pseudocódigo) | [Rendimiento](#rendimiento) |
 |-|-|-|-|
 
 ---
@@ -41,7 +41,7 @@ Tomemos de ejemplo el catálogo estelar Tycho-2 una base de datos que contiene l
 
 ---
 
-## Tiempo de ejecución de la búsqueda binaria
+## Rendimiento
 La búsqueda binaria es un algoritmo de búsqueda de complejidad $O(log$ $n)$. Esto significa que el número de pasos requeridos para encontrar un elemento en una lista aumenta a medida que el número de elementos en la lista aumenta, pero no lo hace en la misma proporción. Por lo tanto, el tiempo de ejecución de la búsqueda binaria es mucho más rápido que el tiempo de ejecución de un algoritmo de búsqueda lineal, en el que el tiempo de búsqueda aumenta linealmente con el número de elementos en la lista.
 
 La clave de la eficiencia del algoritmo de busqueda binaria es que cuando el algoritmo realiza una busqueda incorrecta, el intervalo del arreglo que contiene los intentos razonables se reduce a la mitad. Si la porción razonable tenía $40$ elementos, entonces un intento incorrecto la reduce para que tenga $20$. La búsqueda binaria reduce el tamaño de la porción razonable a la mitad después de cada intento incorrecto.
