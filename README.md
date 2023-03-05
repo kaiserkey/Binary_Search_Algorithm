@@ -40,6 +40,52 @@ Tomemos de ejemplo el catálogo estelar Tycho-2 una base de datos que contiene l
 
 ---
 
+### Tiempo de ejecución de la búsqueda binaria
+La búsqueda binaria es un algoritmo de búsqueda de complejidad $O(log$ $n)$. Esto significa que el número de pasos requeridos para encontrar un elemento en una lista aumenta a medida que el número de elementos en la lista aumenta, pero no lo hace en la misma proporción. Por lo tanto, el tiempo de ejecución de la búsqueda binaria es mucho más rápido que el tiempo de ejecución de un algoritmo de búsqueda lineal, en el que el tiempo de búsqueda aumenta linealmente con el número de elementos en la lista.
+
+La clave de la eficiencia del algoritmo de busqueda binaria es que cuando el algoritmo realiza una busqueda incorrecta, el intervalo del arreglo que contiene los intentos razonables se reduce a la mitad. Si la porción razonable tenía $40$ elementos, entonces un intento incorrecto la reduce para que tenga $20$. La búsqueda binaria reduce el tamaño de la porción razonable a la mitad después de cada intento incorrecto.
+
+Cada vez que duplicamos el tamaño del arreglo, un intento más. Suponiendo que necesitamos $m$ intentos para un arreglo de longitud $n$. Entonces, para un arreglo de longitud $2n$, el primer intento corta la porción razonable del arreglo a un tamaño $n$, y como maximo en $m$ intentos terminamos, dándonos un total $m+1$ intentos.
+
+Hay una función matemática que significa lo mismo que el número de veces que dividimos repetidamente a la mitad, empezando en $n$, hasta obtener el valor de $1$: el logaritmo base $2$ de $n$. Eso suele escribirse como $log_2$ $n$, pero tambien se puede encontrar con la notacion de $lg$ $n$.
+
+
+|   $n$         |    $Log_2$ $n$    |
+|---------------|-------------------|
+|   1           |        0          |
+|   2           |        1          |
+|   4           |        2          |
+|   8           |        3          |
+|   16          |        4          |
+|   32          |        5          |
+|   64          |        6          |
+|   128         |        7          |
+|   256         |        8          |
+|   512         |        9          |
+|   1024        |        10         |
+|   1,048,576   |        20         |
+|   2,097,152   |        21         |
+
+#
+#### Grafica de la funcion logaritmica
+
+![logaritmo](logaritmo.svg)
+
+La función logaritmo crece muy lentamente. Los logaritmos son los inversos de las exponenciales, que crecen muy rápidamente, de modo que si $log_2$ $n$ $=x$, entonces $n$ $=2^x$. Por ejemplo, $log_2$ $128$ $=7$ podemos deducir que $2^7$ $=128$ 
+
+Eso facilita calcular el tiempo de ejecución de un algoritmo de búsqueda binaria en una $n$ que es exactamente una potencia de 2. SI $n$ es $128$, la búsqueda binaria a lo más requerirá de 8 $( log_2 128 + 1 )$ intentos.
+
+¿Qué pasa si $n$ no es una potencia de $2$? En ese caso podemos fijarnos en la potencia de $2$ que sea más cercana por abajo. 
+Para un arreglo cuya longitud sea de $1000$, la potencia de $2$ más cercana por abajo es $512$, que es igual a $2^9$. Así que podemos estimar que $log_2$ $1000$ es un número mayor que 9 y menor que $10$, o usar una calculadora para ver que es aproximadamente $9.97$. Sumarle uno a eso nos da aproximadamente $10.97$. En caso de obtener un número decimal, redondeamos hacia abajo para encontrar el número real de intentos. Por lo tanto, para un arreglo de $1000$ elementos, una búsqueda binaria requeriría como maximo $10$ intentos.
+
+Para la base de datos del **Tycho-2** con $2,539,913$ estrellas, la potencia de $2$ más cercana por abajo es $2^21$ (que es $2,097,152$), así que a lo más necesitaríamos 22 intentos, logrando asi una eficiencia mucho mayor que si lo hubieramos realizado con la busqueda lineal.
+#
+#### Grafica de la funcion lineal vs logaritmica
+
+![lineal vs logaritmo](lineal_vs_logaritmico.svg)
+
+---
+
 | [@ByDanielSan](https://github.com/kaiserkey) |
 | - |
 
