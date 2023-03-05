@@ -86,9 +86,10 @@ Para la base de datos del **Tycho-2** con $2,539,913$ estrellas, la potencia de 
 ![lineal vs logaritmo](lineal_vs_logaritmico.svg)
 
 ---
-
+|[Algoritmo Resuelto en Python](https://github.com/kaiserkey/Binary_Search_Algorithm/blob/main/binary_search_algorithm.py)|
+|-|
 | [@ByDanielSan](https://github.com/kaiserkey) |
-| - |
+
 
 
 
