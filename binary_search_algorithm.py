@@ -22,8 +22,10 @@ def binarySearch(list, item):
         if guess == item:
             print("Numero de iteraciones para encontrar el elemento: ", count)
             return mid
+        #si el valor del elemento en el indice medio es mayor al valor buscado
         elif guess > item:
             max = mid - 1
+        #si el valor del elemento en el indice medio es menor al valor buscado
         else:
             min = mid + 1
     #si no se encuentra el elemento regresamos -1
