@@ -6,8 +6,9 @@
 
 ---
 
-| [Definicion](#definicion) | [Utilizacion](#utilizacion) | [Pseudocódigo](#pseudocódigo) |
-| ------------------------- | --------------------------- | ----------------------------- |
+| [Definicion](#definicion) | [Utilizacion](#utilizacion) | [Pseudocódigo](#pseudocódigo) | [Tiempo De Ejecucion](#tiempo-de-ejecución-de-la-búsqueda-binaria) |
+|-|-|-|-|
+
 ---
 
 ## Definicion
